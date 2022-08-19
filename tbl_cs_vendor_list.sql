@@ -1,0 +1,13 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [redacted]
+      ,[vendor]
+      ,[locations]
+      ,[users_id]
+      ,[passwords]
+      ,[account_number]
+      ,[last_statement_date]
+      ,[multi_statements]
+      ,[last_downloaded_date]
+      ,[active_store]
+      ,[running_yn]
+  FROM [redacted_table].[dbo].[redacted]
